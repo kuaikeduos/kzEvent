@@ -27,7 +27,7 @@ kzEvent.registerEvents([
 - trigger
 ```js
 // 触发事件
-kzEvent.trigger('form:submit-success', ['1573027116013'])
+kzEvent.trigger('form:submit-success', [1573027116013])
 ```
 
  - on
