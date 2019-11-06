@@ -8,10 +8,10 @@
 - form(普通表单)
   - 普通表单提交成功
     + event: `form:submit-success` 
-    + callback: `(formId: string) => void`
+    + callback: `(formId: number) => void`
   - 普通表单提交失败
     + event: `form:submit-fail` 
-    + callback: `(formId: string) => void`
+    + callback: `(formId: number) => void`
 
 ## API
 
@@ -27,7 +27,7 @@ kzEvent.registerEvents([
 - trigger
 ```js
 // 触发事件
-kzEvent.trigger('form:submit-success', ['787mnkj89786'])
+kzEvent.trigger('form:submit-success', ['1573027116013'])
 ```
 
  - on
