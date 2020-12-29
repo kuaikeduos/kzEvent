@@ -24,16 +24,16 @@ kzEvent.registerEvents([
 ])
 ```
 
-- trigger
-```js
-// 触发事件
-kzEvent.trigger('form:submit-success', [1573027116013])
-```
-
  - on
 ```js
 // 监听事件
 kzEvent.on('form:submit-success', function(formId) {
   console.log('formId: %s', formId)
 })
+```
+
+- trigger
+```js
+// 触发事件
+kzEvent.trigger('form:submit-success', [1573027116013])
 ```
