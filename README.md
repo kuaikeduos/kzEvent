@@ -12,6 +12,13 @@
   - 普通表单提交失败
     + event: `form:submit-fail` 
     + callback: `(formId: number) => void`
+- survey(高级表单)
+  - 高级表单提交成功
+    + event: `survey:submit-success` 
+    + callback: `(surveyId: number) => void`
+  - 高级表单提交失败
+    + event: `survey:submit-fail` 
+    + callback: `(surveyId: number) => void`
 
 ## API
 
